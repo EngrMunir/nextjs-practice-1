@@ -1,6 +1,10 @@
+"use client"
+import { useState } from "react";
 
 
-const page = () => {
+const ProductPage = () => {
+const [count,setCount]= useState('');
+console.log('hello from products page');
     return (
         <div>
             <h1>This is products page</h1>
@@ -8,4 +12,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default ProductPage;
